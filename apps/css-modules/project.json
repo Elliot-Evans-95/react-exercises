@@ -1,0 +1,9 @@
+{
+  "name": "css-modules",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/css-modules/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project css-modules --web",
+  "targets": {}
+}

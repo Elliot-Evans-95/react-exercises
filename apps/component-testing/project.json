@@ -1,0 +1,9 @@
+{
+  "name": "component-testing",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/component-testing/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project component-testing --web",
+  "targets": {}
+}

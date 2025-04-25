@@ -1,0 +1,46 @@
+.container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #2c3e50;
+    border-radius: 8px;
+    font-family: 'sans-serif';
+}
+
+.inputRow {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.input {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.button {
+    padding: 0.5rem 1rem;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.todoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #f39c12;
+}
+
+.deleteBtn {
+    margin-left: 1rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 1rem;
+}
+
