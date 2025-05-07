@@ -2,30 +2,6 @@ import {useEffect, useState} from "react";
 
 import styles from "./api-call.module.css";
 
-type User = {
-  id: number;
-  name: string;
-  username: string;
-  email: string;
-  address: {
-    street: string;
-    suite: string;
-    city: string;
-    zipcode: string;
-    geo: {
-      lat: string;
-      lng: string;
-    }
-  },
-  phone: string;
-  website: string;
-  company: {
-    name: string;
-    catchPhrase: string;
-    bs: string;
-  }
-}
-
 export const AdvancedHook = () => {
   const [names, setNames] = useState<string[]>([]);
   const [nameToAdd, setNameToAdd] = useState<string>('');
