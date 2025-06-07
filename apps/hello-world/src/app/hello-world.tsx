@@ -1,5 +1,5 @@
 // Finish HelloWorld component here
 
-export const HelloWorld = () => {
+export const HelloWorld = ({name}) => {
   return null
 }
